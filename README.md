@@ -20,9 +20,10 @@ The rest of the codes are calculated codes and do not need to be changed by the 
 
 
 
+
 This is the output PGA and SA data.
 <div align=center>
-<img src="https://github.com/getSomeChip/XGBoost-SC/assets/148534036/7bc37cd0-2866-44ee-a266-87efac8af181">
+<img src="https://github.com/getSomeChip/XGBoost-SC/assets/148534036/dd942ca2-33f5-4a49-832c-a4e44167bec3">
 </div>
 
 This is the decay curve.
