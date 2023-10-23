@@ -4,31 +4,33 @@ There are four places where the user of this code can change when using it, wher
 
 This code is written in __Python__, and only supports Python editor calls. Detailed instructions for operating the code have been noted in various locations in the code file.
 
-modelFilePath为所下载模型XGBoost-SC.pickle在用户电脑中的路径，__必填__
+modelFilePath is the path to the downloaded model XGBoost-SC.pickle on the user's computer, __required__.
 
-用户需要输入 __必填__ 参数：
-震级(MJMA)、震源距(km)、震源深度(km)、场地条件Vs30(m/s)。
+The user needs to enter the __Required__ parameters:
+Magnitude (MJMA), hypo-central distance (km), focal depth (km), site condition Vs30 (m/s), focal mechanism, site altitude.
 
-txtFilePath与curveFilePath分别SA输出文件与衰减曲线文件保存路径，注：用户仅需输入文件夹路径即可，且此项为 __选填__。
+txtFilePath and curveFilePath are the paths of the output file and the attenuation curve file respectively. Note: Users only need to input the path of the folder, and this item is __optional__.
 
 
-其余代码为计算代码，用户无须更改
+
+The rest of the codes are calculated codes and do not need to be changed by the user.
 <div align=center>
-<img src="https://github.com/heroic98/Stacking-Interface/assets/57880065/65f3fbc6-aa00-4fc7-a12a-801845d270c3">
-</div>
-
-此为所输出PGA与SA数据。
-<div align=center>
-<img src="https://github.com/heroic98/Stacking-Interface/assets/57880065/ec74fca0-714c-49d7-9c2f-e8d122dec9ee">
+<img src="https://github.com/getSomeChip/XGBoost-SC/assets/148534036/d8cf7037-50e1-4566-881e-2972b537a86d">
 </div>
 
 
-此为衰减曲线。
+
+This is the output PGA and SA data.
 <div align=center>
-<img src="https://github.com/heroic98/Stacking-Interface/assets/57880065/c341bba4-7dc2-4bbe-9a82-a3a13abb413b">
+<img src="https://github.com/getSomeChip/XGBoost-SC/assets/148534036/7bc37cd0-2866-44ee-a266-87efac8af181">
 </div>
 
-模型输出文件。
+This is the decay curve.
 <div align=center>
-<img src="https://github.com/heroic98/Stacking-Interface/assets/57880065/46d219d0-8d2e-48b1-9fc0-c5acd1c91c70">
+<img src="https://github.com/getSomeChip/XGBoost-SC/assets/148534036/864c1664-f1df-44ec-9b73-20aaa36dda32">
+</div>
+
+Model output file.
+<div align=center>
+<img src="https://github.com/getSomeChip/XGBoost-SC/assets/148534036/6399af6d-ff66-496e-b724-3c491875c8a2">
 </div>
