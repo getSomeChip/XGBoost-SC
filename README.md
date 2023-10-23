@@ -15,15 +15,13 @@ txtFilePath and curveFilePath are the paths of the output file and the attenuati
 
 The rest of the codes are calculated codes and do not need to be changed by the user.
 <div align=center>
-<img src="https://github.com/getSomeChip/XGBoost-SC/assets/148534036/d8cf7037-50e1-4566-881e-2972b537a86d">
+<img src="https://github.com/getSomeChip/XGBoost-SC/assets/148534036/dd942ca2-33f5-4a49-832c-a4e44167bec3">
 </div>
-
-
 
 
 This is the output PGA and SA data.
 <div align=center>
-<img src="https://github.com/getSomeChip/XGBoost-SC/assets/148534036/dd942ca2-33f5-4a49-832c-a4e44167bec3">
+<img src="https://github.com/getSomeChip/XGBoost-SC/assets/148534036/f25dec5b-86bd-4a69-ac6d-599a69d11e3e">
 </div>
 
 This is the decay curve.
